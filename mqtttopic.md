@@ -7,27 +7,27 @@
 1. เซนเซอร์ภายในเครื่องซักผ้า
     - topic:v1cdti/app/get/1212312121/model-01/sn-001
     - payload
-        - {"temperature": "25.2"}
-        - {"name": "value"}
-        - {"name": "value"}
-        - {"name": "value"}
-        - {"name": "value"}
-        - {"name": "value"}
-        - {"name": "value"}
-        - {"name": "value"}
-        - {"name": "value"}
+        - {"Temperature": "25.2"}
+        - {"Water level": "10"}
+        - {"Drain pump": "100"}
+        - {"Energy efficiency": "2000"}
+        - {"Position": "90"}
+        - {"Low acoustic noise": "10"}
+        - {"Saving water": "10"}
+        - {"UV-C": "100"}
+        - {"Hall": "open/close"}
         
 
  1. เซนเซอร์ภายนอกเครื่องซักผ้า
     - topic:v1cdti/app/get/1212312121/model-01/sn-001
     - payload
-        - {"name": "value"}
-        - {"name": "value"}
-        - {"name": "value"}
-        - {"name": "value"}
-        - {"name": "value"}
-        - {"name": "value"}
-        - {"name": "value"}
+        - {"Determine open/close": "door"}
+        - {"Touch screens": "Touch Water level"}
+        - {"acoustic noise": "10"}
+        - {"Voice sensors": "Voice level"}
+        - {"Temperature": "10"}
+        - {"Humidity": "10"}
+        - {"Radar: "1"}
 
 
 
